@@ -1,7 +1,7 @@
 a=list()
-n=input()
+n=int(input())
 for i in range(0,n):
-  a.append(input())
+    a.append(int(input()))
 
 s=set(a)
 print(s)
