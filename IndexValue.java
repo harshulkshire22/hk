@@ -12,6 +12,7 @@ public class IndexValue {
             if(a[i]==i)
             {
                 System.out.print(a[i]);
+                System.out.print(" ");
                 count++;
             }
             
