@@ -6,11 +6,17 @@ public class IndexValue {
         int n=obj.nextInt();
         int a[]=new int[n];
         int count=0;
-        for(int i=0;i<n;i++)
+        for(int i=1;i<n;i++)
         {
             a[i]=obj.nextInt();
             if(a[i]==i)
+            {
                 System.out.print(a[i]);
+                count++;
+            }
+            
         }
+        if(count==0)
+            System.out.println(-1);
     }
 }
